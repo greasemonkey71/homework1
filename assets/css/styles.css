@@ -1,9 +1,88 @@
+
+
 body {
+    font-family: "Playfair Display", "JetBrains Mono";
     background-color: #000000;
+    color: #fdfafa;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
+
 h1 {
-    color: #ffffff;
+    color: #0066cc;
 }
-.indy {
-    color: #5420e4;
+
+h2 {
+    color: #638cba;
+}
+
+ul {
+    display: inline-block;   
+    text-align: left;        
+    margin: 0 auto; 
+    padding-left: 20px;
+}
+
+
+section {
+    margin: 20px auto;               /* Margin: Creates outer spacing */
+    padding: 15px;                   /* Padding: Creates inner spacing */
+    border: 1px solid #1a2a3a;       /* Border: Subtle naval blue outline */
+    max-width: 900px;
+}
+
+#main-title {
+    font-size: 2.2rem;
+    margin: 20px 0 10px 0;           /* Margin */
+    padding: 10px;                   /* Padding */
+    border-bottom: 2px solid #0066cc;/* Border: Naval blue line below title */
+}
+
+.ship-img {
+    width: 25%;
+    height: auto;
+    margin: 10px auto;               /* Margin */
+    padding: 5px;                    /* Padding */
+    border: 2px solid #638cba;       /* Border: Framing around ship photos */
+    display: block;
+}
+
+.bell-image {
+    width: 20%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.sub-heading {
+    margin: 20px 0;
+}
+
+.red-text {
+    color: red;
+}
+
+.white-text {
+    color: white;
+}
+
+.blue-text {
+    color: #0066cc;
+}
+
+/* Links */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #638cba;
+}
+
+footer {
+    padding: 20px;
+    font-weight: bold;
 }
