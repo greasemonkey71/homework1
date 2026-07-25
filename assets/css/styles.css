@@ -1,7 +1,7 @@
 
 
 body {
-    font-family: "Playfair Display", "JetBrains Mono";
+    font-family: "Playfair Display", "JetBrains Mono", monospace;
     background-color: #000000;
     color: #8794bc;
     margin: 0;
@@ -10,7 +10,7 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family: 'Playfair Display', 'JetBrains Mono', monospace;
 }
 
 
